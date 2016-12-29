@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Paradise Station</title>
-     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="nanotrasen.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
     <nav>
-    
+
        <ul>
            <li id ="logo">  <a href="index.html"><img src="Images/Paradise2icon.PNG" alt="server logo"></a></li>
            <li id="server"> <a href="byond://nanotrasen.se:6666">Server</a></li>
@@ -36,7 +36,7 @@
                 <li>
                    <h2>Forums & discord</h2>
                    <p>Throughout the years, we've built a solid community around our server, with an active forum and a public discord server.</p>
-                   <p>The <a href="https://nanotrasen.se/phpBB3/">forums</a> are our official discussion space, where everything can be document easily.</p> 
+                   <p>The <a href="https://nanotrasen.se/phpBB3/">forums</a> are our official discussion space, where everything can be document easily.</p>
                    <p>The <a href="https://discord.gg/nuqD478">discord</a> is a more informal space where players and admins can hang out.</p>
                 </li>
                 <li>
@@ -52,10 +52,10 @@
                     <p>Space station 13 is an open source game.This means anyone can contribute. Most big servers run their own variant of the game, with distinct and unique elements to their codebase. We too, have our own version of the game, made possible through the hard work of our volunteer coders.</p> <p>You can view and contribute to our codebase <a href="https://github.com/ParadiseSS13/Paradise">at our github page.</a></p>
                 </li>
             </ul>
-       
+
    </main>
    </div>
    <footer><p>This webpage is licensed under the MIT License (MIT).</p></footer>
-   
+
 </body>
 </html>
