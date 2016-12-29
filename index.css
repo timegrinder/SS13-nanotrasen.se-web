@@ -1,49 +1,157 @@
-body {
-    padding: 0;
-    margin: 0;
-    background-color: #1b1b1b;
-    background-image: url("NTlogo.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+html{
+    height: 100%
 }
 
-a {
-    color: #00CA00;
+
+nav{
+    display:block;
+    margin:0 auto;
+    background-color:rgba(0, 0, 0, 0.4);
+    padding: 1em 2em;
+    
+}
+
+
+nav ul{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+
+nav ul li{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    clear: none;
+}
+
+
+a{
+    color: rgba(245,245,245);
     text-decoration: none;
 }
 
-h1 {
-    font-size: 45px;
+
+a:hover{
+    text-decoration: underline; 
 }
 
-.content {
-    color: #FFFFFF;
-    font-family: "Helvetica";
-    font-size: 110%;
-    margin: auto;
-    text-align: center;
-    width: 100%;
+
+img{
+    width:60px;
+    height:60px;
 }
 
-.servers {
-    font-size: 150%;
-}
 
-.server-content {
-    font-size: 110%;
-}
-
-.logo {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-.header {
+body{
+    min-height: 100%;
     margin: 0;
-    padding: 0;
+    font-family: 'Exo', sans-serif;
+    background-image: url(Images/thingymabob.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-h2 .header, h3 .header {
-    height: 3px
+.wrapper{
+    height: 100%;
+    flex: 1;
+}
+
+
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 50px 0px 25px 0px;
+    font-size: 2.5em;
+}
+
+
+main{
+    margin:0;
+    color: rgb(255, 255, 255);
+    padding-bottom:50px;
+}
+
+
+#intro{
+    width: 33%;
+    margin-left: 33%;
+    margin-bottom: 4.5em;
+}
+
+main p{
+padding-top: 1em;    
+}
+
+
+main ul{
+    display: flex;
+    padding:0 20px;
+}
+
+
+main ul li{
+    width: 20%;
+    display: block;
+    clear: none;
+    padding: 0 2.5%;
+}
+
+main h2{
+    font-size: 1.4em;
+    padding-bottom: 20px;
+}
+main a{
+    text-decoration: 
+    underline;
+}
+main a:hover{
+    color:rgba(169,169,169);
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 50px;
+    color: rgba(245,245,245);
+    clear: both;
+    order: 6;
+}
+
+
+footer p{
+    padding: 1em 0 0 1em ;    
+}
+
+/*Mobile view*/
+@media (max-width:600px){
+    nav{display: none;}
+    
+    main ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0 3em;
+
+    }
+    
+    main ul li{
+        align-self: center;
+        width: 100%;
+        margin: 1.2em 0;
+    }
+
+    #intro{
+        width: 80%;
+        margin: 0 auto 3em auto; 
+    }
 }
