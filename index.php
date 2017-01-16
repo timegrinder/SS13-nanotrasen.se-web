@@ -16,29 +16,29 @@
            <li id ="logo">  <a href="#"><img src="Images/Paradise2icon.PNG" alt="server logo"></a></li>
            <li id="server"> <a href="byond://nanotrasen.se:6666">Server</a></li>
            <li id="patreon"><a href="https://www.patreon.com/ParadiseStation">Patreon</a></li>
-           <li id="wiki">   <a href="https://nanotrasen.se/wiki/index.php/Main_Page">wiki</a></li>
-           <li id="forums"> <a href="https://nanotrasen.se/phpBB3/">forums</a></li>
-           <li id="discord"><a href="https://discord.gg/nuqD478">discord</a></li>
-           <li id="github"> <a href="https://github.com/ParadiseSS13/Paradise">github</a></li>
+           <li id="wiki">   <a href="https://nanotrasen.se/wiki/index.php/Main_Page">Wiki</a></li>
+           <li id="forums"> <a href="https://nanotrasen.se/phpBB3/">Forums</a></li>
+           <li id="discord"><a href="https://discord.gg/nuqD478">Discord</a></li>
+           <li id="github"> <a href="https://github.com/ParadiseSS13/Paradise">GitHub</a></li>
        </ul>
     </nav>
     <main>
-        <h1>Paradise Station, a ss13 server</h1>
+        <h1>Paradise Station, a SS13 server</h1>
         <div id="intro">
             <p>
                 Paradise Station is a Space Station 13 server.
-                No idea what space station 13 is? Check out our new player guide <a href="https://nanotrasen.se/wiki/index.php/Guide_for_beginners"> here!</a>
+                No idea what Space Station 13 is? Check out our new player guide <a href="https://nanotrasen.se/wiki/index.php/Guide_for_beginners"> here!</a>
             </p>
             <p>
-               We like to pride ourselves that the general playstyle on our server is a healthy mix of RP & Action. Come join us on the Cyberiad, and try to stay alive, at least for a while.
+               We like to pride ourselves that the general playstyle on our server is a healthy mix of RP & Action. Come join us on the NSS Cyberiad, and try to stay alive, at least for a while.
             </p>
        </div>
         <ul>
                 <li>
-                   <h2>Forums & discord</h2>
+                   <h2>Forums & Discord Guild</h2>
                    <p>Throughout the years, we've built a solid community around our server, with an active forum and a public discord server.</p>
                    <p>The <a href="https://nanotrasen.se/phpBB3/">forums</a> are our official discussion space, where everything can be document easily.</p>
-                   <p>The <a href="https://discord.gg/nuqD478">discord</a> is a more informal space where players and admins can hang out.</p>
+                   <p>Our <a href="https://discord.gg/nuqD478">Discord Guild</a> is a more informal space where players and admins can hang out.</p>
                 </li>
                 <li>
                    <h2>Patreon</h2>
@@ -49,8 +49,8 @@
                    <p>Space Station 13 isn't an easy game. It's got many complex system to play around with, and this may be daunting for new players. Many veteran players will agree though, that learning this game is just as fun as playing. </p><p> So don't be discouraged from trying out the game, just head over to the <a href="https://nanotrasen.se/wiki/index.php/Main_Page">wiki</a> and learn as you play. </p>
                 </li>
                 <li>
-                    <h2>Github</h2>
-                    <p>Space station 13 is an open source game.This means anyone can contribute. Most big servers run their own variant of the game, with distinct and unique elements to their codebase. We too, have our own version of the game, made possible through the hard work of our volunteer coders.</p> <p>You can view and contribute to our codebase <a href="https://github.com/ParadiseSS13/Paradise">at our github page.</a></p>
+                    <h2>GitHub</h2>
+                    <p>Space station 13 is an open source game.This means anyone can contribute. Most big servers run their own variant of the game, with distinct and unique elements to their codebase. We too, have our own version of the game, made possible through the hard work of our volunteer coders.</p> <p>You can view and contribute to our codebase <a href="https://github.com/ParadiseSS13/Paradise">at our GitHub page.</a></p>
                 </li>
             </ul>
 
