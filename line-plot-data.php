@@ -1,8 +1,5 @@
 <?php
-$servername = "127.0.0.1";
-$username = "username";
-$password = "password";
-$dbname = "feedback";
+require_once('mysql_login.php');
 
 $conn = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
 
