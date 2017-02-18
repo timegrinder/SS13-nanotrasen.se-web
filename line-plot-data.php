@@ -16,8 +16,8 @@ if($requestData['startDate'] && $requestData['endDate']) {
 }
 $series = array();
 $data = array();
-$series[] = array("label" => "admin_count", "highlighter" => array("formatString" =>"admin count %s %s"))
-$series[] = array("label" => "player_count", "highlighter" => array("formatString" =>"player count %s %s"))
+$series[] = array("label" => "admin_count", "highlighter" => array("formatString" =>"admin count %s %s"));
+$series[] = array("label" => "player_count", "highlighter" => array("formatString" =>"player count %s %s"));
 
 $sql = "SELECT playercount,admincount,time FROM legacy_population WHERE time > '$startDate 00:00:00' AND time < '$endDate 23:59:59';";
 $query=mysqli_query($conn, $sql) or die("error getting data");
@@ -28,10 +28,12 @@ if(mysqli_num_rows($query) <= 0) {
 }
 
 while( $row=mysqli_fetch_array($query) ) {  // preparing an array
-    if($row["admincount"])
+    if($row["admincount"]) {
         $data[0][] = array($row["time"], (int)$row["admincount"]);
-    if($row["playercount"])
+    }
+    if($row["playercount"]) {
         $data[1][] = array($row["time"], (int)$row["playercount"]);
+    }
 }
 
 $json_data = array(
