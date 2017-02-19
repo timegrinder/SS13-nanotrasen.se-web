@@ -87,6 +87,11 @@ main{
     margin-bottom: 4.5em;
 }
 
+#content{
+    width: 80%;
+    margin-left: 10%;
+}
+
 main p{
 padding-top: 1em;    
 }

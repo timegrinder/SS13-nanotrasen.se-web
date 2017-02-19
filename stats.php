@@ -105,12 +105,14 @@
         </ul>
     </nav>
     <main>
-        <fieldset>
-            <legend>Select a date range</legend>
-            From <input type="text" id="startDate" name="startDate">
-            To <input type="text" id="endDate" name="endDate">
-        </fieldset>
-        <div id='plot' style='height:600px'></div>
+        <div id='content'>
+            <fieldset>
+                <legend>Select a date range</legend>
+                From <input type="text" id="startDate" name="startDate">
+                To <input type="text" id="endDate" name="endDate">
+            </fieldset>
+            <div id='plot' style='height:600px'></div>
+        </div>
     </main>
     </div>
     <footer><p>This webpage is licensed under the MIT License (MIT).</p></footer>
