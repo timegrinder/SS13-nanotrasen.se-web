@@ -1,30 +1,31 @@
 <?php
 require_once('mysql_login.php');
 
-$conn = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
+$conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8mb4", $username, $password)
 
 $requestData= $_REQUEST;
 
 $startDate = date('Y-m-d');
 $endDate = date('Y-m-d');
 if($requestData['startDate'] && $requestData['endDate']) {
-    $startDate = mysqli_real_escape_string($conn,$requestData['startDate']);
-    $endDate = mysqli_real_escape_string($conn,$requestData['endDate']);
+    $startDate = $requestData['startDate'] + ' 00:00:00';
+    $endDate = $requestData['endDate'] + ' 23:59:59';
 }
 $series = array();
 $data = array();
 $series[] = array("label" => "admin_count", "highlighter" => array("formatString" =>"admin count %s %s"));
 $series[] = array("label" => "player_count", "highlighter" => array("formatString" =>"player count %s %s"));
 
-$sql = "SELECT playercount,admincount,time FROM legacy_population WHERE time > '$startDate 00:00:00' AND time < '$endDate 23:59:59';";
-$query=mysqli_query($conn, $sql) or die("error getting data");
+$sql = "SELECT playercount,admincount,time FROM legacy_population WHERE time > :startDate AND time < :endDate;";
+$pdo->prepare($sql);
+$query = $pdo->execute(array(':startDate' => startDate, ':endDate' => endDate));
 
-if(mysqli_num_rows($query) <= 0) {
+if($query->rowCount() <= 0) {
     // Empty dataset
     die('{"data":[[null]],"series":[],"axes":{"xaxis":{"min":"'.$startDate.' 00:00:00","max":"'.$endDate.' 23:59:59"}}}');
 }
 
-while( $row=mysqli_fetch_array($query) ) {  // preparing an array
+while($row=$query->fetch(PDO::FETCH_ASSOC)) {  // preparing an array
     if($row["admincount"]) {
         $data[0][] = array($row["time"], (int)$row["admincount"]);
     }
