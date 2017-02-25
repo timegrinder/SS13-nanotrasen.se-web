@@ -10,6 +10,10 @@ $endDate = date('Y-m-d');
 if($requestData['startDate'] && $requestData['endDate']) {
     $startDate = $requestData['startDate'].' 00:00:00';
     $endDate = $requestData['endDate'].' 23:59:59';
+    if((new DateTime($requestData['startDate']))->diff(new DateTime($requestData['endDate']))->days > 14) {
+        $endDate = (new DateTime($requestData['startDate']))->add(new DateInterval("P14D"))->format('Y-m-d').' 23:59:59';
+
+    }
 }
 $series = array();
 $data = array();
@@ -25,10 +29,10 @@ if($query->rowCount() <= 0) {
 }
 
 while($row=$query->fetch(PDO::FETCH_ASSOC)) {  // preparing an array
-    if(array_key_exists("admincount", $row)) {
+    if($row["admincount"] != NULL) {
         $data[0][] = array($row["time"], (int)$row["admincount"]);
     }
-    if(array_key_exists("playercount", $row)) {
+    if($row["playercount"] != NULL) {
         $data[1][] = array($row["time"], (int)$row["playercount"]);
     }
 }
