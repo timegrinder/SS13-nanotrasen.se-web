@@ -25,10 +25,10 @@ if($query->rowCount() <= 0) {
 }
 
 while($row=$query->fetch(PDO::FETCH_ASSOC)) {  // preparing an array
-    if($row["admincount"]) {
+    if(array_key_exists("admincount", $row)) {
         $data[0][] = array($row["time"], (int)$row["admincount"]);
     }
-    if($row["playercount"]) {
+    if(array_key_exists("playercount", $row)) {
         $data[1][] = array($row["time"], (int)$row["playercount"]);
     }
 }
