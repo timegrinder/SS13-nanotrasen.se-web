@@ -13,13 +13,14 @@
     <nav>
 
        <ul>
-           <li id ="logo">  <a href="#"><img src="Images/Paradise2icon.PNG" alt="server logo"></a></li>
+           <li id ="logo">  <a href="/"><img src="Images/Paradise2icon.PNG" alt="server logo"></a></li>
            <li id="server"> <a href="byond://nanotrasen.se:6666">Server</a></li>
            <li id="patreon"><a href="https://www.patreon.com/ParadiseStation">Patreon</a></li>
            <li id="wiki">   <a href="https://nanotrasen.se/wiki/index.php/Main_Page">Wiki</a></li>
            <li id="forums"> <a href="https://nanotrasen.se/phpBB3/">Forums</a></li>
            <li id="discord"><a href="https://discord.gg/nuqD478">Discord</a></li>
            <li id="github"> <a href="https://github.com/ParadiseSS13/Paradise">GitHub</a></li>
+           <li id="stats">  <a href="stats.php">Stats</a></li>
        </ul>
     </nav>
     <main>
