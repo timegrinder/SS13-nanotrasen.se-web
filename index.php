@@ -17,7 +17,7 @@
            <li id="server"> <a href="byond://nanotrasen.se:6666">Server</a></li>
            <li id="patreon"><a href="https://www.patreon.com/ParadiseStation">Patreon</a></li>
            <li id="wiki">   <a href="https://nanotrasen.se/wiki/index.php/Main_Page">Wiki</a></li>
-           <li id="forums"> <a href="https://nanotrasen.se/phpBB3/">Forums</a></li>
+           <li id="forums"> <a href="https://nanotrasen.se/forum/">Forums</a></li>
            <li id="discord"><a href="https://discord.gg/nuqD478">Discord</a></li>
            <li id="github"> <a href="https://github.com/ParadiseSS13/Paradise">GitHub</a></li>
            <li id="stats">  <a href="stats.php">Stats</a></li>
@@ -38,7 +38,7 @@
                 <li>
                    <h2>Forums & Discord Guild</h2>
                    <p>Throughout the years, we've built a solid community around our server, with an active forum and a public discord server.</p>
-                   <p>The <a href="https://nanotrasen.se/phpBB3/">forums</a> are our official discussion space, where everything can be document easily.</p>
+                   <p>The <a href="https://nanotrasen.se/forum/">forums</a> are our official discussion space, where everything can be document easily.</p>
                    <p>Our <a href="https://discord.gg/nuqD478">Discord Guild</a> is a more informal space where players and admins can hang out.</p>
                 </li>
                 <li>
