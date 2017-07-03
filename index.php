@@ -14,7 +14,7 @@
 
        <ul>
            <li id ="logo">  <a href="/"><img src="Images/Paradise2icon.PNG" alt="server logo"></a></li>
-           <li id="server"> <a href="byond://nanotrasen.se:6666">Server</a></li>
+           <li id="server"> <a href="byond://byond.nanotrasen.se:6666">Server</a></li>
            <li id="patreon"><a href="https://www.patreon.com/ParadiseStation">Patreon</a></li>
            <li id="wiki">   <a href="https://nanotrasen.se/wiki/index.php/Main_Page">Wiki</a></li>
            <li id="forums"> <a href="https://nanotrasen.se/forum/">Forums</a></li>
