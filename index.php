@@ -51,7 +51,7 @@
                 </li>
                 <li>
                     <h2>GitHub</h2>
-                    <p>Space station 13 is an open source game.This means anyone can contribute. Most big servers run their own variant of the game, with distinct and unique elements to their codebase. We too, have our own version of the game, made possible through the hard work of our volunteer coders.</p> <p>You can view and contribute to our codebase <a href="https://github.com/ParadiseSS13/Paradise">at our GitHub page.</a></p>
+                    <p>Space station 13 is an open source game. This means anyone can contribute. Most big servers run their own variant of the game, with distinct and unique elements to their codebase. We too, have our own version of the game, made possible through the hard work of our volunteer coders.</p> <p>You can view and contribute to our codebase <a href="https://github.com/ParadiseSS13/Paradise">at our GitHub page.</a></p>
                 </li>
             </ul>
 
