@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Paradise Station</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
